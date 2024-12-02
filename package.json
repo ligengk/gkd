@@ -2,6 +2,13 @@
   "name": "@gkd-kit/subscription-template",
   "version": "0.0.0",
   "type": "module",
+  "gkd": {
+    "outDir": "dist",
+    "file": "ligengk_gkd.json5",
+    "versionFile": "ligengk_gkd.version.json5",
+    "changelog": "CHANGELOG.md",
+    "README.md": "README.md"
+  },
   "scripts": {
     "postinstall": "simple-git-hooks",
     "format": "prettier --cache --write ./**/*.{js,cjs,mjs,ts,jsx,tsx,json}",
