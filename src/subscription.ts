@@ -27,5 +27,5 @@ export default defineGkdSubscription({
   supportUri: 'https://github.com/ligengk/gkd/issues/new/choose',
   categories,
   globalGroups,
-  apps:rawApps,
+  apps: rawApps,
 });
